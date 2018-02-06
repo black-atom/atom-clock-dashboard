@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'
-import { HomePage } from './containers/home'
+import { BrowserRouter } from 'react-router-dom';
+import { RouteApp } from './routes';
+import Dashboard from './containers/dashboard/Dashboard';
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <HomePage/>
-      </Router>
+      <BrowserRouter>
+        <Dashboard/>
+      </BrowserRouter>
     );
   }
 }
