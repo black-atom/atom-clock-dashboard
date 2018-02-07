@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'
-import { HomePage } from './containers/home'
+import { BrowserRouter } from 'react-router-dom';
+import { RoutesApp } from './routes';
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <HomePage/>
-      </Router>
+      <BrowserRouter>
+        <RoutesApp/>
+      </BrowserRouter>
     );
   }
 }
