@@ -1,5 +1,5 @@
 import React from 'react';
-import { DashBoard } from './containers/dashboard/DashBoard';
+import DashBoard  from './containers/dashboard';
 import { Route, Switch } from 'react-router-dom';
 
 export const RoutesApp = () => (

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
 import { DashBoardRoutes } from './routes';
-import MenuNavbar from '../../components/navbar';
+import MenuNavbar from './../../components/navbar';
 
-export const DashBoard = () => (
-  <Switch>
+const DashBoard = () => (
+  <div>
     <MenuNavbar/>
     <DashBoardRoutes/>
-  </Switch>
+  </div>
 );
 
+export default DashBoard;

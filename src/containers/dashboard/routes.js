@@ -7,5 +7,6 @@ export const DashBoardRoutes = () => (
   <Switch>
     <Route exact path='/dashboard/main' component={Main}/>
     <Route path='/dashboard/equipamentos' component={Equipamentos}/>
+    <Route path='/dashboard' component={Main}/>
   </Switch>
 );
