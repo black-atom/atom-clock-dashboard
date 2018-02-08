@@ -1,0 +1,21 @@
+  .scrollbar {
+    float: left !important;
+    height: 350px !important;
+    padding: none !important;
+    width: 100% !important;
+    overflow-y: scroll !important;
+  }
+  #style-1::-webkit-scrollbar {
+    width: 2px !important;
+  }
+  #style-1::-webkit-scrollbar-thumb {
+    background-color: #828282 !important;
+  }
+  #style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #828282(214, 100, 199, 0.3);
+  }
+
+  .card {
+    width: 100% !important;
+    height: 100% !important;
+  }
